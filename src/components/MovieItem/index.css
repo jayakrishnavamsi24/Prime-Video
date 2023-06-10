@@ -1,0 +1,39 @@
+.thumbnail-img {
+  width: 170px;
+}
+
+.popup-content {
+  padding: 10px;
+}
+
+.close-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trigger-button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.modal-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.react-player-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

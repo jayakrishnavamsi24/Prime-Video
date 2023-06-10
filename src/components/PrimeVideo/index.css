@@ -1,0 +1,41 @@
+.bg-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.prime-video-banner {
+  width: 100%;
+}
+
+.videos-section {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+}
+
+.genre-title {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.close-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.promo-movie-title {
+  color: #ffffff;
+  flex-grow: 1;
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+
+.trigger-button {
+  cursor: pointer;
+  outline: none;
+}
