@@ -21,14 +21,13 @@ const MovieItem = props => {
         justifyContent: 'center',
         borderRadius: 10,
         borderWidth: 0,
-        backgroundImage: 'radial-gradient(ellipse at center, #1e3149, #090e1c)',
+        backgroundColor: '#ffffff',
       }}
       className="popup-content"
     >
       {close => (
         <div className="modal-container">
           <div className="close-btn-container">
-            <h1 className="promo-movie-title"> Enjoy this cool trailer 😉</h1>
             <button
               type="button"
               className="trigger-button"
